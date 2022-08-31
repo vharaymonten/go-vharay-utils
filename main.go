@@ -6,6 +6,6 @@ import (
 
 //AUTHOR = JIVHA
 
-func Hello() {
-	fmt.Println("Hello core")
+func Hello(name string) {
+	fmt.Println("Hello core" + " " + name)
 }
